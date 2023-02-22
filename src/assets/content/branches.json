@@ -1,0 +1,14 @@
+ [
+    {
+        "CountryName": "Select a Country",
+        "branches": []
+      },
+    {
+      "CountryName": "Turkey",
+      "branches": ["TURKISH BANK A.S", "T-Branch 2"]
+    },
+    {
+      "CountryName": "Pakistan",
+      "branches": ["P-Branch 1", "P-Branch 2"]
+    }
+  ]
