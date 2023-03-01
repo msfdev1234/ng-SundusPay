@@ -12,12 +12,12 @@
 
 <div class="container my-4  ">
     <div class="row">
-        <div class="col-md-4 mx-auto py-5 shadow bg-blue  rounded justify-content-center " [formGroup]="calciForm" >
+        <div class="col-md-4 mx-auto py-5 shadow bg-blue  rounded justify-content-center " [formGroup]="calciForm">
 
             <div class="col-md-12 py-3 bgExchangeInput">
                 <div class="input-group mx-2">
                     <div class="input-group-prepend w-25 ">
-                        <select id="lunch"  style="height: 50px; font-weight: bold;"
+                        <select id="lunch" style="height: 50px; font-weight: bold;"
                             class="form-control font-weight-bolder bgSendingCountries text-black-100 p-1 text-center"
                             data-live-search="true" title="Sending from">
                             <option>USD</option>
@@ -25,18 +25,16 @@
                             <option>TRY</option>
                         </select>
                     </div>
-                    <input type="number" (input)="value1Changed()"  class="form-control me-3"  formControlName="value1Input"  aria-label="Text input with dropdown button">
+                    <input type="number" (input)="value1Changed()" class="form-control me-3"
+                        formControlName="value1Input" aria-label="Text input with dropdown button">
                 </div>
             </div>
 
             <div class="col-md-5 py-3 mx-auto ps-5">
-
-                
                 <button type="button" (click)="onSubmit()" class="shadow rounded-Btn " title="Exchange Rate">
-                    <img class="rounded-circle text-center w-20" src="./assets/images/icons/exchangeRates.svg" width="35">
+                    <img class="rounded-circle text-center w-20" src="./assets/images/icons/exchangeRates.svg"
+                        width="35">
                 </button>
-
-
             </div>
 
             <div class="col-md-12 py-3 bgExchangeInput2 mb-3">
@@ -50,7 +48,8 @@
                             <option>USD</option>
                         </select>
                     </div>
-                    <input type="number" (input)="value2Changed()" class="form-control me-3" formControlName="value2Input" aria-label="Text input with dropdown button">
+                    <input type="number" (input)="value2Changed()" class="form-control me-3"
+                        formControlName="value2Input" aria-label="Text input with dropdown button">
                 </div>
             </div>
 

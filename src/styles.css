@@ -96,7 +96,7 @@ body {
     box-shadow: 0 0 7px rgb(230, 230, 230);
   }
 
-  
+
 
   .inside-box {
     border: 1px solid #e2e2e2;
@@ -147,7 +147,7 @@ body {
   .center {
     display: block;
     text-align: -webkit-center;
-}
+  }
 
   #refresh {
     position: relative;
@@ -216,11 +216,11 @@ body {
   padding: 0.5rem 1rem !important;
 }
 
-.color-text{
+.color-text {
   color: #2c85d8;
 }
 
-.color-text:hover{
+.color-text:hover {
   color: #0259ab;
 }
 
@@ -230,4 +230,22 @@ a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
+}
+
+.reciept-Btn {
+  background-color: #ffffff !important;
+  border: 1px solid #ecbc52;
+  color: #cc951f;
+  border-radius: 5px;
+  padding: 6px;
+  width: 116px;
+}
+
+.reciept-Btn:hover {
+  background-color: #ecbc52 !important;
+  border: 1px solid ;
+  color: #000000;
+  border-radius: 5px;
+  padding: 6px;
+  width: 116px;
 }

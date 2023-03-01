@@ -71,5 +71,9 @@ export class SearchtransferComponent implements OnInit {
     }
   }
 
+  downloadReciept(id?:number){
+    console.log(Transfers.find(transfer => transfer.transferID == id))
+  }
+
 }
 

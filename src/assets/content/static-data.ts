@@ -118,9 +118,9 @@ export const Transfers = [
     {
         "transferID": 1000,
         "senderName": "Irfan Ali",
-        "senderMobile": "+966 125467656",
+        "senderMobile": "111",
         "recieverName": "Aziz Md",
-        "recieverMobile": "+91 7981845475",
+        "recieverMobile": "222",
         "action": "freind",
     },
     {
