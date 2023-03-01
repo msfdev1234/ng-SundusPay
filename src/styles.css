@@ -216,6 +216,14 @@ body {
   padding: 0.5rem 1rem !important;
 }
 
+.color-text{
+  color: #2c85d8;
+}
+
+.color-text:hover{
+  color: #0259ab;
+}
+
 
 
 a {

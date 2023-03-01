@@ -11,15 +11,15 @@
 </div>
 
 <div class="container py-5">
-    <div class="row">
-        <div class="col-md-6">
-            <select id="country-select-dropDown" class="form-control ds-input" (change)="onCountrySelected($event)">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <select id="country-select-dropDown" class="form-control ds-input mt-3" (change)="onCountrySelected($event)">
                 <option >Select Country</option>
                 <option *ngFor="let country of countryList" value={{country.countryId}}>{{country.countryName}}</option>
             </select>
         </div>
-        <div class="col-md-6">
-            <select id="branch-select-dropDown" class="form-control ds-input" (change)="onBranchSelect($event)">
+        <div class="col-md-5">
+            <select id="branch-select-dropDown" class="form-control ds-input mt-3" (change)="onBranchSelect($event)">
                 <option >Select Branch</option>
                 <option *ngFor="let branch of branchList" value={{branch.branchId}}>{{branch.branchName}}
                 </option>
@@ -30,8 +30,8 @@
 
 
 <div class="container" *ngIf="currentBranch && branchList">
-    <div class="row mb-5">
-        <div class="col-md-12 my-2">
+    <div class="row mb-5 justify-content-center">
+        <div class="col-md-10 my-2">
 
             <div class="card">
                 <div class="card-body">
