@@ -1,31 +1,51 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { allMaterialModules } from 'src/shared/all-material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { IndexComponent } from './components/index/index.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { LegalwarningsComponent } from './components/legalwarnings/legalwarnings.component';
+import { SafetyforComponent } from './components/safetyfor/safetyfor.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { BranchesComponent } from './components/branches/branches.component';
+import { CookiePolicyComponent } from './components/cookie-policy/cookie-policy.component';
+import { SearchtransferComponent } from './components/searchtransfer/searchtransfer.component';
+
+import {NgxCaptchaModule} from  '@binssoft/ngx-captcha';
+import { CalculatorComponent } from './components/calculator/calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    IndexComponent,
+    AboutusComponent,
+    LegalwarningsComponent,
+    SafetyforComponent,
+    ContactusComponent,
+    FaqComponent,
+    BranchesComponent,
+    CookiePolicyComponent,
+    SearchtransferComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    allMaterialModules,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatSlideToggleModule,
     NgbModule,
-    RouterModule
+    RouterModule,
+    NgxCaptchaModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

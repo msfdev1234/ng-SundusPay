@@ -1,0 +1,135 @@
+<div class="container-fluid bg-light py-3">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 my-3">
+                <h2>
+                    Branches
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-6">
+            <select id="country-select-dropDown" class="form-control ds-input" (change)="onCountrySelected($event)">
+                <option >Select Country</option>
+                <option *ngFor="let country of countryList" value={{country.countryId}}>{{country.countryName}}</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <select id="branch-select-dropDown" class="form-control ds-input" (change)="onBranchSelect($event)">
+                <option >Select Branch</option>
+                <option *ngFor="let branch of branchList" value={{branch.branchId}}>{{branch.branchName}}
+                </option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" *ngIf="currentBranch && branchList">
+    <div class="row mb-5">
+        <div class="col-md-12 my-2">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="row  d-flex align-items-center border-bottom p-3">
+                        <div class="col-md-5 border-right  "> 
+                            <h6>{{currentBranch.branchName}}</h6>
+                            <p class="m-1 text-muted">{{currentBranch.branchAddress}}</p>
+                            <p class="m-1 text-muted"> {{currentBranch.branchMobile}} </p>
+                            <p class="m-1 text-muted"> {{currentBranch.branchEmail}}</p>
+
+                        </div>
+
+                        <div class="col-md-5 small  border-right ">
+                            <span class="row mx-auto" *ngFor="let workingHour of currentBranch.workingHours">
+                                <div class="col-3">Monday</div>
+                                <div class="col-md-9" value>{{workingHour.Monday}} </div>
+
+                                <div class="col-3">Tuesday</div>
+                                <div class="col-md-9" value>{{workingHour.Tuesday}} </div>
+
+                                <div class="col-3">Wednesday</div>
+                                <div class="col-md-9" value>{{workingHour.Wednesday}} </div>
+
+                                <div class="col-3">Thursday</div>
+                                <div class="col-md-9" value>{{workingHour.Thursday}} </div>
+
+                                <div class="col-3">Friday</div>
+                                <div class="col-md-9" value>{{workingHour.Friday}} </div>
+
+                                <div class="col-3">Saturday</div>
+                                <div class="col-md-9" value>{{workingHour.Saturday}} </div>
+
+                                <div class="col-3">Sunday</div>
+                                <div class="col-md-9" value>{{workingHour.Sunday}} </div>
+                            </span>
+
+                        </div>
+                        <div class="col-md-2 mx-auto my-auto text-center">
+                            <div> <i class="fa fa-location-arrow fa-lg" aria-hidden="true"></i> </div>
+                            <p class="mt-2"> <a href={{currentBranch.branchDirection}}>Direction </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="container">
+    <div class="row mb-5">
+        <div class="col-md-12 my-2">
+
+            <div class="card ">
+                <div class="card-body">
+                    <div class="row  d-flex align-items-center border-bottom p-3" *ngFor="let branch of branchList">
+                        <div class="col-md-5 border-right  ">
+                            <h6>{{branch.branchName}}</h6>
+                            <p class="m-1 text-muted">{{branch.branchAddress}}</p>
+                            <p class="m-1 text-muted"> {{branch.branchMobile}} </p>
+                            <p class="m-1 text-muted"> {{branch.branchEmail}}</p>
+                        </div>
+                        <div class="col-md-5 small  border-right ">
+                            <span class="row mx-auto" *ngFor="let workingHour of branch.workingHours">
+                                <div class="col-3">Monday</div>
+                                <div class="col-md-9" value>{{workingHour.Monday}} </div>
+
+                                <div class="col-3">Tuesday</div>
+                                <div class="col-md-9" value>{{workingHour.Tuesday}} </div>
+
+                                <div class="col-3">Wednesday</div>
+                                <div class="col-md-9" value>{{workingHour.Wednesday}} </div>
+
+                                <div class="col-3">Thursday</div>
+                                <div class="col-md-9" value>{{workingHour.Thursday}} </div>
+
+                                <div class="col-3">Friday</div>
+                                <div class="col-md-9" value>{{workingHour.Friday}} </div>
+
+                                <div class="col-3">Saturday</div>
+                                <div class="col-md-9" value>{{workingHour.Saturday}} </div>
+
+                                <div class="col-3">Sunday</div>
+                                <div class="col-md-9" value>{{workingHour.Sunday}} </div>
+                            </span>
+
+                        </div>
+                        <div class="col-md-2 mx-auto my-auto text-center">
+                            <div> <i class="fa fa-location-arrow fa-lg" aria-hidden="true"></i> </div>
+                            <p class="mt-2"> <a href={{branch.branchDirection}}>Direction </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+ -->

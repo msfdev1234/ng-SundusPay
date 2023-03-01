@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { allMaterialModules } from 'src/shared/all-material.module';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 
 @Component({
@@ -7,6 +8,17 @@ import { allMaterialModules } from 'src/shared/all-material.module';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'ng-SundusPay';
+
+  /**
+   *
+   */
+  constructor(private router:Router) {
+    
+  }
+
+  ngOnInit(): void {
+    
+  }
 }

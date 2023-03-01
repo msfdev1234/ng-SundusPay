@@ -1,156 +1,160 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 @font-face {
-    font-family: 'Oxygen Light';
-    src: url('./assets/fonts/Oxygen-Light.ttf');
-  }
+  font-family: 'Oxygen Light';
+  src: url('./assets/fonts/Oxygen-Light.ttf');
+}
 
-  @font-face {
-    font-family: 'Oxygen Regular';
-    src: url('./assets/fonts/Oxygen-Regular.ttf');
-  }
+@font-face {
+  font-family: 'Oxygen Regular';
+  src: url('./assets/fonts/Oxygen-Regular.ttf');
+}
 
-  @font-face {
-    font-family: 'Oxygen Bold';
-    src: url('./assets/fonts/Oxygen-Bold.ttf');
-  }
+@font-face {
+  font-family: 'Oxygen Bold';
+  src: url('./assets/fonts/Oxygen-Bold.ttf');
+}
 
-  body {
-      font-family: 'Oxygen Regular';
-  }
+body {
+  font-family: 'Oxygen Regular';
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oxygen Bold';
-    color: #202020;
-    letter-spacing: .5px;
-  }
+#btn-back-to-top {
+
+  display: block;
+}
 
 .brand img {
-    width: 250px;
+  width: 250px;
 }
 
 @media (min-width: 992px) {
-.navbar-expand-lg .navbar-nav .nav-link {
+  .navbar-expand-lg .navbar-nav .nav-link {
     /* padding-right: 1.5rem; */
     padding-left: 1.5rem;
-}
+  }
 
-.display-4 {
+  .display-4 {
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 1.5px;
     color: #072982;
-}
+  }
 
-.btn-lg {
+  .btn-lg {
     padding: 0.8rem 2rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 5rem;
-}
+  }
 
-.text-warning {
+  .text-warning {
     color: #ecbc53 !important;
-}
+  }
 
-.accordion .card-header {
+  .accordion .card-header {
     padding: 0;
     height: 50px;
     border-radius: 5px;
-}
+  }
 
-.accordion .nav-link {
+  .accordion .nav-link {
     padding: 1.5rem 1rem;
-}
+  }
 
-.accordion .btn {
+  .accordion .btn {
     font-size: 1rem;
-}
+  }
 
-.accordion>.card {
+  .accordion>.card {
     margin-bottom: 15px;
-    border: 0px solid rgba(0,0,0,.125);
-}
+    border: 0px solid rgba(0, 0, 0, .125);
+  }
 
 
-.bg-blue {
+  .bg-blue {
     background-color: #072982 !important;
-}
+  }
 
-.blue-text {
+  .blue-text {
     color: #072982;
-}
+  }
 
-.list-inline {
+  .list-inline {
     padding-left: 0;
     list-style: none;
-}
+  }
 
-.list-inline-item {
+  .list-inline-item {
     display: inline-block;
-}
+  }
 
-.contactus-box {
+  .contactus-box {
     padding: 15px;
     box-shadow: 0 0 7px rgb(230, 230, 230);
-}
+  }
 
-.inside-box {
+  
+
+  .inside-box {
     border: 1px solid #e2e2e2;
     padding: 15px;
     height: 480px;
-}
+  }
 
-.navbar-expand-lg {
+  .navbar-expand-lg {
     margin-top: 12px;
     margin-bottom: 12px;
-}
+  }
 
-.underMaintenanceBG {  
-    background: repeating-linear-gradient( 45deg, #000, #242424 10px, #ffb901 10px, #ffb901 20px);
+  .underMaintenanceBG {
+    background: repeating-linear-gradient(45deg, #000, #242424 10px, #ffb901 10px, #ffb901 20px);
     width: 100%;
     padding: 0;
     margin: 0;
-    height: 10px;  
-}
+    height: 10px;
+  }
 
-.accordion .card-header h2 {
+  .accordion .card-header h2 {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;  
-}
+    padding: 0 15px;
+  }
 
-.accordion .card-header h2:after {
-  content: "\f078";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 600;
-  height: 16px;
-  line-height: 16px;
-  top: 11px;
-  position: relative;
-  font-size: 20px; 
-}
-
-
-#mainCaptcha{
+  .accordion .card-header h2:after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    height: 16px;
+    line-height: 16px;
+    top: 11px;
     position: relative;
-    max-width: 200px; 
+    font-size: 20px;
+  }
+
+
+  #mainCaptcha {
+    position: relative;
+    max-width: 200px;
     padding: 10px;
     margin: 0px;
     text-align: center;
-    box-shadow: 1px 2px 7px rgb(0 139 253 / 25%);  
+    box-shadow: 1px 2px 7px rgb(0 139 253 / 25%);
   }
 
-  #refresh{
+  .center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+  #refresh {
     position: relative;
     top: -33px;
     left: 169px;
     width: 30px;
-    height: 50px;  
+    height: 50px;
     bottom: auto;
     background-color: transparent;
     outline: none;
@@ -158,9 +162,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border: 0;
     background-repeat: no-repeat;
     border-radius: 6px;
-}
+  }
 
-  #txtInput, #Button1{
+  #txtInput,
+  #Button1 {
     position: relative;
     /* left:40px; */
     padding: 10px 10px;
@@ -175,26 +180,26 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
   .rounded-Btn {
     background-color: #1b4ca8;
-    border: 2px solid #ffffff; 
+    border: 2px solid #ffffff;
     border-radius: 50%;
     /* background: transparent; */
     transition: all 0.3s ease 0s;
     /* width: 55%; */
-    padding: 10% 17%;      
+    padding: 10% 17%;
   }
- 
+
 
   .bgSendingCountries {
     background-color: aliceblue
   }
 
   .bgExchangeInput {
-    background-color: #f5f5f5!important;
+    background-color: #f5f5f5 !important;
     border-radius: 10px;
   }
- 
+
   .bgExchangeInput2 {
-    background-color: #ebebeb!important;
+    background-color: #ebebeb !important;
     border-radius: 10px;
   }
 
@@ -204,12 +209,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   }
 
 
+}
 
 .nav-link {
   display: block !important;
-  padding: 0.5rem 1rem !important;;
+  padding: 0.5rem 1rem !important;
 }
-}
+
+
 
 a {
   color: #007bff;
