@@ -20,6 +20,7 @@ import { SearchtransferComponent } from './components/searchtransfer/searchtrans
 
 import {NgxCaptchaModule} from  '@binssoft/ngx-captcha';
 import { CalculatorComponent } from './components/calculator/calculator.component';
+import { KVKKComponent } from './components/kvkk/kvkk.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CalculatorComponent } from './components/calculator/calculator.componen
     BranchesComponent,
     CookiePolicyComponent,
     SearchtransferComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    KVKKComponent
   ],
   imports: [
     BrowserModule,

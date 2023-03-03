@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+            <trans-unit id="1317493301234446358" datatype="html">
+        <source>Copyright - 2022. SundusPay, All Right Reserved.</source>
+        <target>Telif Hakkı - 2022. SundusPay, Her Hakkı Saklıdır.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="197423074150198657" datatype="html">
+        <source> About Us </source>
+        <target> Hakkımızda </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6809798376525121504" datatype="html">
+        <source> Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş. is a payment institution, licensed by the Central Bank of Turkey, established for the purpose of carrying out money transfer activities as specified in Paragraph 1 (Ç) of Article 12 of the Law No. 6493 on Payment and Securities Settlement Systems, Payment Services and Electronic Money Institutions. </source>
+        <target> Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş. 6493 sayılı Ödeme Ve Menkul Kıymet Mutabakat Sistemleri, Ödeme Hizmetleri Ve Elektronik Para Kuruluşları Hakkında Kanunu’nun 12. Maddesi ‘ç’ bendi kapsamında para havalesi faaliyetinde bulunmak üzere TCMB tarafından yetkilendirilmiş bir ödeme kuruluşudur.
+
+Şubelerimizde Para transfer işlemlerinizi hızlıca gerçekleştirebilirsiniz. Bambaşka bir uygulama tecrübesi için Para transferlerinizi keyifle ve güvenle yapmak için sizleri SundusPay'e bekliyoruz. </target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">17,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5389826325334981166" datatype="html">
+        <source> You can quickly transfer money at our branches. We welcome you to SundusPay to make your money transfers with pleasure and confidence for a completely different application experience. </source>
+        <target> Şubelerimizde hızlı bir şekilde para transferi yapabilirsiniz. Bambaşka bir uygulama deneyimi için para transferlerinizi keyifle ve güvenle gerçekleştirmek için sizi SundusPay'e bekliyoruz. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="333846312452076555" datatype="html">
+        <source>Mission</source>
+         <target>Misyon</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="105112078923143358" datatype="html">
+        <source> To make your life easier, it is to provide innovative, practical, reliable smart payment technologies and services. </source>
+        <target>Hayatınızı kolaylaştırmak için yenilikçi, pratik, güvenilir akıllı ödeme teknolojileri ve hizmetleri sunmaktır.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">29,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2817863439810503358" datatype="html">
+        <source>Vission</source>
+        <target>Vizyon</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4507946351351166695" datatype="html">
+        <source> As a local player of the global world, SundusPay aims to carry out its works meticulously by considering contributing to the country’s economy. </source>
+        <target>SundusPay, küresel dünyanın yerel bir oyuncusu olarak ülke ekonomisine katkı sağlamayı gözeterek çalışmalarını titizlikle yürütmeyi hedeflemektedir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">34,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8146681553137555298" datatype="html">
+        <source> With its innovative approach and investment, SundusPay will continue its efforts at the highest level to lead financial transformation and create the ecosystem. </source>
+        <target>SundusPay, yenilikçi yaklaşımı ve yatırımı ile finansal dönüşüme öncülük etmek ve ekosistemi oluşturmak için çalışmalarını en üst düzeyde sürdürecektir.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">37,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1878839923114210159" datatype="html">
+        <source>aboutus bigsvg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38747732795727125" datatype="html">
+        <source> Branches </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6670566782853002272" datatype="html">
+        <source><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option  &gt;"/>Select Country<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option *ngFor=&quot;let country of countryList&quot; value={{country.countryId}}&gt;"/><x id="INTERPOLATION" equiv-text="{{country.countryName}}"/><x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5215448495033522193" datatype="html">
+        <source><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option &gt;"/>Select Branch<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option *ngFor=&quot;let branch of branchList&quot; value={{branch.branchId}}&gt;"/><x id="INTERPOLATION" equiv-text="{{branch.branchName}}"/> <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{currentBranch.branchName}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7708270344948043036" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{currentBranch.branchMobile}}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="466492426610382126" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{currentBranch.branchEmail}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4952794693118520217" datatype="html">
+        <source><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Monday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION" equiv-text="{{workingHour.Monday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Tuesday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION_1" equiv-text="{{workingHour.Tuesday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Wednesday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION_2" equiv-text="{{workingHour.Wednesday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Thursday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION_3" equiv-text="{{workingHour.Thursday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Friday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION_4" equiv-text="{{workingHour.Friday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Saturday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION_5" equiv-text="{{workingHour.Saturday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;col-3&quot;&gt;"/>Sunday<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;col-md-9&quot; value&gt;"/><x id="INTERPOLATION_6" equiv-text="{{workingHour.Sunday}}"/> <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">49,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5886050965042785601" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa fa-location-arrow fa-lg&quot; aria-hidden=&quot;true&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4509657885425125681" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href={{currentBranch.branchDirection}}&gt;"/>Direction <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/branches/branches.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3226714935060637202" datatype="html">
+        <source> Calculator </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/calculator/calculator.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2628459377075158544" datatype="html">
+        <source><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/>USD<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/>EURO <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/>TRY<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/calculator/calculator.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4554632619867892308" datatype="html">
+        <source><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/>TRY<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/>EURO <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/>USD<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/calculator/calculator.component.html</context>
+          <context context-type="linenumber">46,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7726282590898112987" datatype="html">
+        <source> 1 USD = 18.83 TRY* </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/calculator/calculator.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2155307267862689144" datatype="html">
+        <source>Fee: 0.00 USD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/calculator/calculator.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7998572237500955264" datatype="html">
+        <source> Customer Complaint / Satisfaction / Request </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="471816275243265264" datatype="html">
+        <source>Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4575753830720855372" datatype="html">
+        <source> Esentepe Mahallesi Büyükdere Caddesi,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> No: 171 A Metrocity D: 176 34330 Şişli/İstanbul, Turkey.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4612661766601129657" datatype="html">
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p  class=&quot;text-muted&quot;&gt;"/>+90 (212) 631 42 43<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9063698480688555645" datatype="html">
+        <source>Email us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5025588592395139467" datatype="html">
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;text-muted&quot;&gt;"/>info@sunduspay.com<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821561481941500473" datatype="html">
+        <source>Corporate Information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5786054561272209186" datatype="html">
+        <source>Commercial Registration Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7948442986243755092" datatype="html">
+        <source>149619-5</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4038733578243284794" datatype="html">
+        <source>Taxation Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1990080344843932953" datatype="html">
+        <source>8150804733</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5033734799152993323" datatype="html">
+        <source>Central Registration System Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3320764487500327606" datatype="html">
+        <source>0815080473300001</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4987284559436350560" datatype="html">
+        <source>Paid-in Capital</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7921864627796940244" datatype="html">
+        <source>35.000.000 TL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3769262145139195976" datatype="html">
+        <source>Supervisory Authority</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1706211535268755524" datatype="html">
+        <source>Türkiye Cumhuriyet Merkez Bankası (TCMB)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Hacı Bayram Mah. İstiklal Cad. No:10 06050 Ulus Altındağ,Ankara Telefon : +90 (312) 507 50 00 Faks : +90 (312) 507 56 40</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">51,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8779173778325924127" datatype="html">
+        <source> Cookie Policy </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="135709542974704280" datatype="html">
+        <source>In our policy, we use the term &quot;cookies&quot; to refer to cookies and other similar technologies that fall within the scope of the European Union Data Protection Directive. We use different types of cookies for reasons such as increasing the efficiency you get from our website, maximizing the user experience, adapting our website according to your interests, offering you special products and services, and improving our products and services. By using our website you accept the use of cookies and the processing of related data. We would like to point out that the privacy of your personal data Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş. of great importance to We keep our system and internet infrastructure security at the highest level in order to protect your personal information.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9016470767749247193" datatype="html">
+        <source>What is a cookie?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4471781344584744157" datatype="html">
+        <source>Cookies, in general terms, the website you enter; is a series of text files stored on your device through your internet browser. For example, some of the cookies used remember your language selection, you don&apos;t have to repeat such choices every time you log in to the site. In addition, the cookies used create a more convenient and faster visit experience for your individual needs.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1959473694260170733" datatype="html">
+        <source>Types of Cookies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="615919342901078912" datatype="html">
+        <source>Cookies are divided into two as temporary and permanent cookies according to their storage time in your browser. Our website uses temporary and permanent type cookies to distinguish you from other users and to make arrangements according to your interests and preferences. SundusPay Payment Agency A.Ş. In addition to cookies designed by us, cookies can also be used within the scope of services received from third parties. There are two types of cookies, Persistent Cookie and Temporary Cookie, according to their duration.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3825330109426577405" datatype="html">
+        <source>The term session cookies is also used for temporary cookies. These cookies are created while you visit our website and are deleted after your browser is closed. The main purpose of our use of temporary cookies is to ensure that our website functions properly during your visit. For example; ensuring that multi-page and online forms are properly filled.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6212414663288450333" datatype="html">
+        <source>They are created when you visit our website and remain until you delete them or they expire. We use these cookies to provide an individual experience that is compatible with your personal settings.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3953704191214330150" datatype="html">
+        <source>Cookie Categories</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9044347070518597067" datatype="html">
+        <source>Thanks to the use of technical cookies, the functional use of the website is ensured, but pages and areas that do not work on the site are detected.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6396598920062674227" datatype="html">
+        <source>: In case the site visitor logs in using a password, the identity of the site user is determined on each page he visits on the site, thus preventing the user from logging in using a password on other pages he visits.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5264276167398126550" datatype="html">
+        <source>These are the types of cookies that enable the effective use of image or audio content on the website.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3502325983263917724" datatype="html">
+        <source>These are the types of cookies that are used to remember the preferences made by the user on different pages of the website.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7982432356587995710" datatype="html">
+        <source>These are the types of cookies that provide analytical results such as the number of visitors to the website, the detection of the pages viewed, the time interval of the visit to the site.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6102556361136756815" datatype="html">
+        <source>Cookie Management</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5843823375042900167" datatype="html">
+        <source>Mostly all internet browsers are programmed to accept cookies automatically. You can block the use of cookies and delete stored cookies, according to your preference. In general, internet browsers allow you to do the following:/p&gt; </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5495642126825306996" datatype="html">
+        <source>As a data controller, your personal data is kept by our institution for the following purposes in accordance with the purpose of conducting electronic money and payment services.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8612000161552093793" datatype="html">
+        <source>Viewing and deleting cookies saved in your browser</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1671756780034596220" datatype="html">
+        <source>Blocking third-party cookies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7199975713098663834" datatype="html">
+        <source>Deleting cookies stored in your browser from certain sites</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6480112950377569239" datatype="html">
+        <source>Block all cookies that may be stored in your browser</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3289456239562855305" datatype="html">
+        <source>Deleting cookies saved when the browser is closed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3068869841766501955" datatype="html">
+        <source>If you prevent the storage of cookies and/or delete the stored cookies, some functions of our website may not work actively. For your information, we wish you pleasant use.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="100255767024910031" datatype="html">
+        <source> Fast and Reliable<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Money Transfer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> SundusPay </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">5,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7198755813837628878" datatype="html">
+        <source> Secure, Economical, By offering fast money transfer we make your life easier. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">11,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4708271710573279280" datatype="html">
+        <source> Learn More <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+            class=&quot; ms-5  fa fa-arrow-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5743665218477875962" datatype="html">
+        <source>transfers image1</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8004961217473072995" datatype="html">
+        <source> Low Fees Safe Payment High Speed </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="324305240146345290" datatype="html">
+        <source> SundusPay It performs very fast and reliable money transfer transactions without opening an account. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">37,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8878700331247603166" datatype="html">
+        <source>Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4715726755984405403" datatype="html">
+        <source>With our technology-leading systems, we perform your money transfers in safe.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4352110375180640821" datatype="html">
+        <source>Client satisfaction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="316424331076857533" datatype="html">
+        <source>We care about our customers very much. With our innovative and technological infrastructure, we make life easier for our customers and offer quick solutions to their problems.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6434415503179752729" datatype="html">
+        <source> Why Send Money with<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>SundusPay </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5556507130630693382" datatype="html">
+        <source> Our Mission; To provide innovative, practical, reliable smart payment technologies and services to make your life easier. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">76,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7707916698743238068" datatype="html">
+        <source>footer logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8900787349174382750" datatype="html">
+        <source><x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small&gt;"/>Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş 6493 sayılı Ödeme Ve Menkul Kıymet Mutabakat Sistemleri, Ödeme Hizmetleri ve Elektronik Para Kuruluşları Hakkında Kanun’un 12. Maddesinin 1. Fıkrası ( Ç )<x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;aboutus&quot; routerLinkActive=&quot;active&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Daha Fazla Oku...<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1507469400777111059" datatype="html">
+        <source><x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u&gt;"/>Legal Warnings<x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7506541588033296591" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>KVKK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3078217536084292709" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Cookie Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5004653023839719257" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>TÖDEB Hakem Heyeti</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7010356608481815394" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Legal Warnings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3962139744673095665" datatype="html">
+        <source><x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u&gt;"/>Information<x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3793951773946028790" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Money Transfer <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7144248866048648911" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>About Us</source>
+        
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Hakkımızda</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2459129532340002564" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>For Safety</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Güvenliğiniz İçin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="637273672559975670" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Contact Us</source>
+         <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Bize Ulaşın</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8645037351830446821" datatype="html">
+        <source><x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5&gt;"/>info@sunduspay.com<x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7872472734786039484" datatype="html">
+        <source><x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5&gt;"/>+90 (212) 631 42 43<x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3369541031719196142" datatype="html">
+        <source>footer tcmb</source>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3084840048863597749" datatype="html">
+        <source>footer todeb</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1776193156455969286" datatype="html">
+        <source>header logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4174702686785761172" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;navbar-toggler-icon&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6349749251210804543" datatype="html">
+        <source>Money Transfer <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Para Transferi </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5736481176444461852" datatype="html">
+        <source>About Us</source>
+        <target>Hakkımızda </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4092718195083684755" datatype="html">
+        <source> Services</source>
+        <target>Seçenekler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8267429707083258564" datatype="html">
+        <source> Faq</source>
+    
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4173671903069665454" datatype="html">
+        <source> Calculator</source>
+        <target>Hesap Makinesi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="54742276058638147" datatype="html">
+        <source> Branches</source>
+        <target>Şubeler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1783389277134964606" datatype="html">
+        <source> Search Transfer</source>
+        <target>Arama Transferi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8568785709889583803" datatype="html">
+        <source>Legal Warnings <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Yasal Uyarılar <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2299787274993414327" datatype="html">
+        <source>For Safety<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Güvenliğiniz İçin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9186262258032716849" datatype="html">
+        <source>Contact Us <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                        class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Bize Ulaşın</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

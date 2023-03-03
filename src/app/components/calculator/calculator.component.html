@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 my-3 ">
-                <h2>
+                <h2 i18n>
                     Calculator
                 </h2>
             </div>
@@ -17,7 +17,7 @@
             <div class="col-md-12 py-3 bgExchangeInput">
                 <div class="input-group mx-2">
                     <div class="input-group-prepend w-25 ">
-                        <select id="lunch" style="height: 50px; font-weight: bold;"
+                        <select i18n id="lunch" style="height: 50px; font-weight: bold;"
                             class="form-control font-weight-bolder bgSendingCountries text-black-100 p-1 text-center"
                             data-live-search="true" title="Sending from">
                             <option>USD</option>
@@ -25,7 +25,7 @@
                             <option>TRY</option>
                         </select>
                     </div>
-                    <input type="number" (input)="value1Changed()" class="form-control me-3"
+                    <input i18n type="number" (input)="value1Changed()" class="form-control me-3"
                         formControlName="value1Input" aria-label="Text input with dropdown button">
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="col-md-12 py-3 bgExchangeInput2 mb-3">
                 <div class="input-group  mx-2">
                     <div class="input-group-prepend w-25">
-                        <select style="height: 50px; font-weight: bold;"
+                        <select i18n style="height: 50px; font-weight: bold;"
                             class=" form-control font-weight-bolder bgSendingCountries p-1 text-center"
                             data-live-search="true" title="Sending To">
                             <option>TRY</option>
@@ -48,14 +48,14 @@
                             <option>USD</option>
                         </select>
                     </div>
-                    <input type="number" (input)="value2Changed()" class="form-control me-3"
+                    <input i18n type="number" (input)="value2Changed()" class="form-control me-3"
                         formControlName="value2Input" aria-label="Text input with dropdown button">
                 </div>
             </div>
 
             <div class="d-flex justify-content-between">
-                <p class="m-0 p-0 font-12"> 1 USD = 18.83 TRY* </p>
-                <p class="m-0 p-0 font-12">Fee: 0.00 USD</p>
+                <p i18n class="m-0 p-0 font-12"> 1 USD = 18.83 TRY* </p>
+                <p i18n class="m-0 p-0 font-12">Fee: 0.00 USD</p>
             </div>
 
         </div>

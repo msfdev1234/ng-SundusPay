@@ -7,6 +7,7 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { CookiePolicyComponent } from './components/cookie-policy/cookie-policy.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { IndexComponent } from './components/index/index.component';
+import { KVKKComponent } from './components/kvkk/kvkk.component';
 import { LegalwarningsComponent } from './components/legalwarnings/legalwarnings.component';
 import { SafetyforComponent } from './components/safetyfor/safetyfor.component';
 import { SearchtransferComponent } from './components/searchtransfer/searchtransfer.component';
@@ -23,6 +24,7 @@ const routes: Routes = [{ path: 'index', component: IndexComponent },
 { path: 'cookypolicy', component: CookiePolicyComponent },
 { path: 'searchtransfer', component: SearchtransferComponent },
 { path: 'calculator', component: CalculatorComponent },
+{ path: 'kvkk-politikamiz', component: KVKKComponent },
 ];
 
 @NgModule({

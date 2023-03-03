@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "ng-SundusPay": {
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "tr": "src/locale/messages.tr.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -24,16 +30,16 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [      
-             
+            "styles": [
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/assets/css/custom.css"
             ],
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            
-            ]
+            ],
+            "localize": true,
+            "aot": true
           },
           "configurations": {
             "production": {
@@ -58,6 +64,12 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "tr": {
+              "localize": [
+                "tr"
+              ],
+              "baseHref": "/tr"
             }
           },
           "defaultConfiguration": "production"
@@ -70,6 +82,9 @@
             },
             "development": {
               "browserTarget": "ng-SundusPay:build:development"
+            },
+            "tr": {
+              "browserTarget": "ng-SundusPay:build:tr"
             }
           },
           "defaultConfiguration": "development"

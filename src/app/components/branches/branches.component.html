@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 my-3">
-                <h2>
+                <h2 i18n>
                     Branches
                 </h2>
             </div>
@@ -13,13 +13,13 @@
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-md-5">
-            <select id="country-select-dropDown" class="form-control ds-input mt-3" (change)="onCountrySelected($event)">
-                <option >Select Country</option>
+            <select i18n id="country-select-dropDown" class="form-control ds-input mt-3" (change)="onCountrySelected($event)">
+                <option  >Select Country</option>
                 <option *ngFor="let country of countryList" value={{country.countryId}}>{{country.countryName}}</option>
             </select>
         </div>
         <div class="col-md-5">
-            <select id="branch-select-dropDown" class="form-control ds-input mt-3" (change)="onBranchSelect($event)">
+            <select i18n id="branch-select-dropDown" class="form-control ds-input mt-3" (change)="onBranchSelect($event)">
                 <option >Select Branch</option>
                 <option *ngFor="let branch of branchList" value={{branch.branchId}}>{{branch.branchName}}
                 </option>
@@ -37,16 +37,16 @@
                 <div class="card-body">
                     <div class="row  d-flex align-items-center border-bottom p-3">
                         <div class="col-md-5 border-right  "> 
-                            <h6>{{currentBranch.branchName}}</h6>
+                            <h6 i18n>{{currentBranch.branchName}}</h6>
                             <p class="m-1 text-muted">{{currentBranch.branchAddress}}</p>
-                            <p class="m-1 text-muted"> {{currentBranch.branchMobile}} </p>
-                            <p class="m-1 text-muted"> {{currentBranch.branchEmail}}</p>
+                            <p i18n class="m-1 text-muted"> {{currentBranch.branchMobile}} </p>
+                            <p i18n class="m-1 text-muted"> {{currentBranch.branchEmail}}</p>
 
                         </div>
 
                         <div class="col-md-5 small  border-right ">
-                            <span class="row mx-auto" *ngFor="let workingHour of currentBranch.workingHours">
-                                <div class="col-3">Monday</div>
+                            <span i18n class="row mx-auto" *ngFor="let workingHour of currentBranch.workingHours">
+                                <div  class="col-3">Monday</div>
                                 <div class="col-md-9" value>{{workingHour.Monday}} </div>
 
                                 <div class="col-3">Tuesday</div>
@@ -70,8 +70,8 @@
 
                         </div>
                         <div class="col-md-2 mx-auto my-auto text-center">
-                            <div> <i class="fa fa-location-arrow fa-lg" aria-hidden="true"></i> </div>
-                            <p class="mt-2"> <a href={{currentBranch.branchDirection}}>Direction </a></p>
+                            <div i18n> <i class="fa fa-location-arrow fa-lg" aria-hidden="true"></i> </div>
+                            <p i18n class="mt-2"> <a href={{currentBranch.branchDirection}}>Direction </a></p>
                         </div>
                     </div>
                 </div>

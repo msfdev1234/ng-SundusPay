@@ -233,18 +233,20 @@ a {
 }
 
 .reciept-Btn {
-  background-color: #ffffff !important;
-  border: 1px solid #ecbc52;
-  color: #cc951f;
-  border-radius: 5px;
-  padding: 6px;
-  width: 116px;
-}
-
-.reciept-Btn:hover {
   background-color: #ecbc52 !important;
   border: 1px solid ;
   color: #000000;
+  border-radius: 5px;
+  padding: 6px;
+  width: 116px;
+
+
+}
+
+.reciept-Btn:hover {
+
+  border: 1px solid #ffffff;
+  color: #ffffff;
   border-radius: 5px;
   padding: 6px;
   width: 116px;
