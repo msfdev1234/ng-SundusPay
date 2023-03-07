@@ -15,5 +15,6 @@ export class CookiePolicyComponent implements OnInit{
 
   ngOnInit(): void {
     this.appComponent.showLoadingBar();
+    this.appComponent.setAppTitle("Sunduspay: Cookie Policy");
   }
 }

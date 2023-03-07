@@ -34,6 +34,6 @@ export class AppComponent implements OnInit{
 
     setTimeout(() => {
       this.loading=false;
-    }, 400);
+    }, 500);
   }
 }
