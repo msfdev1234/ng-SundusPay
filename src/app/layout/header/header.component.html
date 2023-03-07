@@ -2,7 +2,7 @@
 
 
     <a alt="header logo" i18n-alt routerLink="index" routerLinkActive="active" class="brand ">
-        <img src="./assets/images/logo.png" />
+        <img src="assets/images/logo.png" />
     </a>
     <button i18n class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,21 +49,34 @@
                     data-bs-target=".navbar-collapse.show">For Safety <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a i18n class="nav-link" routerLink="contactus" routerLinkActive="active">Contact Us <span
-                        class="sr-only">(current)</span></a>
+                <a i18n class="nav-link" routerLink="contactus" routerLinkActive="active" data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show">Contact Us <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown" style="border: 1px solid #efefef;border-radius: 50px;">
-                <a class="nav-link btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false"><img height="26"
+          
+
+            <li *ngIf="locale=='en'" class="nav-item dropdown" style="border: 1px solid #efefef;border-radius: 50px;">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><img height="26"
                         src="https://res.cloudinary.com/paysii/image/upload/v1586237050/paysii-orm/flags-iso/GB.png">
                     English</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#"><img height="26"
+                    <a class="dropdown-item" href="/tr" role="button" aria-haspopup="true" aria-expanded="false"><img
+                            height="26"
                             src="https://res.cloudinary.com/paysii/image/upload/v1586237065/paysii-orm/flags-iso/TR.png">
-                        Turkish</a>
+                        Türkçe</a>
                 </div>
             </li>
 
+            <li *ngIf="locale=='tr'"  class="nav-item dropdown" style="border: 1px solid #efefef;border-radius: 50px;">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><img height="26"
+                        src="https://res.cloudinary.com/paysii/image/upload/v1586237065/paysii-orm/flags-iso/TR.png">
+                    Türkçe</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/en" role="button" aria-haspopup="true" aria-expanded="false"><img
+                            height="26"
+                            src="https://res.cloudinary.com/paysii/image/upload/v1586237050/paysii-orm/flags-iso/GB.png">
+                        English</a>
+                </div>
+            </li>
 
         </ul>
     </div>

@@ -21,6 +21,10 @@ import { SearchtransferComponent } from './components/searchtransfer/searchtrans
 import {NgxCaptchaModule} from  '@binssoft/ngx-captcha';
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { KVKKComponent } from './components/kvkk/kvkk.component';
+import { TodebArbitrationComponent } from './components/todeb-arbitration/todeb-arbitration.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+
+import { NgxLoadingModule, ngxLoadingAnimationTypes } from "ngx-loading";
 
 @NgModule({
   declarations: [
@@ -37,7 +41,9 @@ import { KVKKComponent } from './components/kvkk/kvkk.component';
     CookiePolicyComponent,
     SearchtransferComponent,
     CalculatorComponent,
-    KVKKComponent
+    KVKKComponent,
+    TodebArbitrationComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
@@ -46,8 +52,15 @@ import { KVKKComponent } from './components/kvkk/kvkk.component';
     BrowserAnimationsModule,
     NgbModule,
     RouterModule,
-    NgxCaptchaModule
-   
+    NgxLoadingModule.forRoot({
+      animationType: ngxLoadingAnimationTypes.threeBounce,
+      fullScreenBackdrop:true,
+      backdropBackgroundColour: "rgba(0,0,0,0.5)",
+      backdropBorderRadius: "4px",
+      primaryColour: "#ecbb52",
+      secondaryColour: "#072982",
+      tertiaryColour: "#ffffff",
+    }), 
   ],
   providers: [],
   bootstrap: [AppComponent]

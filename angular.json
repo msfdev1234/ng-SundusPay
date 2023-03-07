@@ -19,7 +19,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-sundus-pay",
+            "aot": true,
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -37,11 +38,21 @@
             ],
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ],
-            "localize": true,
-            "aot": true
+            ]
           },
           "configurations": {
+            "tr": {
+              "localize": [
+                "tr"
+              ],
+              
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.tr.ts"
+                }
+              ]
+            },
             "production": {
               "budgets": [
                 {
@@ -63,14 +74,15 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
-            },
-            "tr": {
-              "localize": [
-                "tr"
-              ],
-              "baseHref": "/tr"
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
             }
+       
           },
           "defaultConfiguration": "production"
         },

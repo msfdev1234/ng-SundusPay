@@ -9,8 +9,10 @@ import { FaqComponent } from './components/faq/faq.component';
 import { IndexComponent } from './components/index/index.component';
 import { KVKKComponent } from './components/kvkk/kvkk.component';
 import { LegalwarningsComponent } from './components/legalwarnings/legalwarnings.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { SafetyforComponent } from './components/safetyfor/safetyfor.component';
 import { SearchtransferComponent } from './components/searchtransfer/searchtransfer.component';
+import { TodebArbitrationComponent } from './components/todeb-arbitration/todeb-arbitration.component';
 
 
 const routes: Routes = [{ path: 'index', component: IndexComponent },
@@ -25,6 +27,8 @@ const routes: Routes = [{ path: 'index', component: IndexComponent },
 { path: 'searchtransfer', component: SearchtransferComponent },
 { path: 'calculator', component: CalculatorComponent },
 { path: 'kvkk-politikamiz', component: KVKKComponent },
+{ path: 'TÖDEB-hakem-heyeti', component: TodebArbitrationComponent },
+{ path: 'privacy-policy', component: PrivacyPolicyComponent },
 ];
 
 @NgModule({

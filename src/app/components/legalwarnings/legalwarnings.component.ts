@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-legalwarnings',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class LegalwarningsComponent {
 
+  constructor(private appComponent:AppComponent) {
+
+  }
+
+  ngOnInit(): void {
+    this.appComponent.setAppTitle("Sunduspay: Legal");
+    this.appComponent.showLoadingBar();
+  }
 }

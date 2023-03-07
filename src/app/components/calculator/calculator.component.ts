@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-calculator',
@@ -15,7 +16,7 @@ export class CalculatorComponent implements OnInit {
 
   currentSelect! : number;
 
-  constructor() {
+  constructor(private appComponent: AppComponent) {
   }
 
   ngOnInit() {
@@ -27,6 +28,10 @@ export class CalculatorComponent implements OnInit {
 
       value2Input: new FormControl(),
     })
+
+    this.appComponent.setAppTitle("Calculator");
+    this.appComponent.showLoadingBar();
+
 
   }
 

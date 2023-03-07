@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from 'src/app/app.component';
 import { Branch } from 'src/app/model/Branch.model';
 import { Timing } from 'src/app/model/Timing.model';
 import { Branches, Countries } from 'src/assets/content/static-data';
@@ -14,13 +15,22 @@ export class BranchesComponent implements OnInit {
 
   currentBranch: any;
 
+  
+  constructor(private appComponent:AppComponent) {
+
+  }
 
   ngOnInit() {
+
+    this.appComponent.setAppTitle("Sunduspay: Branches");
+    this.appComponent.showLoadingBar();
+
     this.countryList = Countries;
     console.log(this.countryList);
     this.branchList = Branches.filter(branch => branch.countryId == 100);
    // this.currentBranch = this.branchList.find(branch => branch.branchId == 1);
   }
+
 
   country!: any[];
   branch!: any[];

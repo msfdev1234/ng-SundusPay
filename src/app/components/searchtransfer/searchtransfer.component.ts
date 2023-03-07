@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, FormsModule, Validators } from '@angular/forms';
 import { NgxCaptchaService } from '@binssoft/ngx-captcha'
+import { AppComponent } from 'src/app/app.component';
 
 import { Transfers } from 'src/assets/content/static-data';
 
@@ -20,11 +21,14 @@ export class SearchtransferComponent implements OnInit {
   checkTransfer: any;
 
 
-  constructor(private captchaService: NgxCaptchaService, private formBuilder: FormBuilder,) { }
+  constructor(private captchaService: NgxCaptchaService, private formBuilder: FormBuilder, private appComponent: AppComponent) { }
 
   ngOnInit() {
 
     // this.transferList = Transfers;
+
+    this.appComponent.setAppTitle("Sunduspay: Search transfers");
+    this.appComponent.showLoadingBar();
 
     this.transferForm = new FormGroup({
       transferIdInput: new FormControl(null, [Validators.required, Validators.minLength(3)]),
@@ -50,28 +54,28 @@ export class SearchtransferComponent implements OnInit {
       return;
     }
     // console.log(this.transferForm.value)
-    
+
     this.checkTransfer = Transfers.find(transfer => transfer.transferID == this.transferForm.value.transferIdInput)
-  //  console.log(this.currentTransfer);
+    //  console.log(this.currentTransfer);
 
     if (this.checkTransfer != undefined) {
       if (this.transferForm.value.transferIdInput == this.checkTransfer.transferID &&
         this.transferForm.value.senderMobileInput == this.checkTransfer.senderMobile &&
         this.transferForm.value.recieverMobileInput == this.checkTransfer.recieverMobile) {
 
-        
 
-          this.currentTransfer = this.checkTransfer;
-          console.log(this.currentTransfer)
-      } else{
+
+        this.currentTransfer = this.checkTransfer;
+        console.log(this.currentTransfer)
+      } else {
         alert("Invalid Mobile Input")
       }
-    }else{
+    } else {
       alert("Invalid Transfer Id Input")
     }
   }
 
-  downloadReciept(id?:number){
+  downloadReciept(id?: number) {
     console.log(Transfers.find(transfer => transfer.transferID == id))
   }
 

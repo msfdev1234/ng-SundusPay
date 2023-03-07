@@ -1,28 +1,32 @@
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-11 ">
-            <app-header class="md-6"></app-header>
-        </div>
+  <div class="row justify-content-center">
+    <div class="col-md-11 ">
+      <app-header class="md-6"></app-header>
     </div>
+  </div>
 </div>
+
+<ngx-loading 
+  [show]="loading" >
+</ngx-loading>
 
 <router-outlet></router-outlet>
 
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-11 ">
-            <app-footer class="md-6"></app-footer>
-        </div>
+  <div class="row justify-content-center">
+    <div class="col-md-11 ">
+      <app-footer class="md-6"></app-footer>
     </div>
+  </div>
 </div>
 
-  <!-- Bottom Footer [START] -->
-  <div class="container-fluld bg-yellow">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-11 blue-text text-center pt-3">
-          <p i18n>Copyright - 2022. SundusPay, All Right Reserved.</p>
-        </div>
+<!-- Bottom Footer [START] -->
+<div class="container-fluld bg-yellow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-11 blue-text text-center pt-3">
+        <p i18n>Copyright - 2022. SundusPay, All Right Reserved.</p>
       </div>
     </div>
   </div>
+</div>

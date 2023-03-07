@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="ngb.alert.close" datatype="html">
         <source>Close</source>
@@ -432,6 +432,7 @@
       </trans-unit>
       <trans-unit id="7998572237500955264" datatype="html">
         <source> Customer Complaint / Satisfaction / Request </source>
+        <target> Müşteri Şikayet / Memnuniyet / Talep </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">5,7</context>
@@ -439,6 +440,7 @@
       </trans-unit>
       <trans-unit id="471816275243265264" datatype="html">
         <source>Location</source>
+        <target>Adres</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">20</context>
@@ -453,6 +455,7 @@
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
+        <target>iletişim</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">23</context>
@@ -465,8 +468,18 @@
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
+
+      <trans-unit id="791988267498679324" datatype="html">
+        <source>Fax</source>
+        <target>Faks</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="9063698480688555645" datatype="html">
         <source>Email us</source>
+        <target>E-posta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">31</context>
@@ -481,6 +494,7 @@
       </trans-unit>
       <trans-unit id="2821561481941500473" datatype="html">
         <source>Corporate Information</source>
+        <target>Şirket Bilgisi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">41</context>
@@ -488,6 +502,7 @@
       </trans-unit>
       <trans-unit id="5786054561272209186" datatype="html">
         <source>Commercial Registration Number</source>
+        <target>Ticaret Sicil Numarası</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">42</context>
@@ -502,6 +517,7 @@
       </trans-unit>
       <trans-unit id="4038733578243284794" datatype="html">
         <source>Taxation Number</source>
+        <target>Zincirlikuyu V.D Numarasi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">44</context>
@@ -516,6 +532,7 @@
       </trans-unit>
       <trans-unit id="5033734799152993323" datatype="html">
         <source>Central Registration System Number</source>
+        <target>Mersis Numarası</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">46</context>
@@ -530,6 +547,7 @@
       </trans-unit>
       <trans-unit id="4987284559436350560" datatype="html">
         <source>Paid-in Capital</source>
+        <target>Ödenmiş Sermaye</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">48</context>
@@ -544,6 +562,7 @@
       </trans-unit>
       <trans-unit id="3769262145139195976" datatype="html">
         <source>Supervisory Authority</source>
+        <target>Denetleyici Merci</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">50</context>
@@ -551,6 +570,7 @@
       </trans-unit>
       <trans-unit id="1706211535268755524" datatype="html">
         <source>Türkiye Cumhuriyet Merkez Bankası (TCMB)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Hacı Bayram Mah. İstiklal Cad. No:10 06050 Ulus Altındağ,Ankara Telefon : +90 (312) 507 50 00 Faks : +90 (312) 507 56 40</source>
+        <target>Türkiye Cumhuriyet Merkez Bankası (TCMB)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Hacı Bayram Mah. İstiklal Cad. No:10 06050 Ulus Altındağ,Ankara Telefon : +90 (312) 507 50 00 Faks : +90 (312) 507 56 40</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
           <context context-type="linenumber">51,53</context>
@@ -558,6 +578,7 @@
       </trans-unit>
       <trans-unit id="8779173778325924127" datatype="html">
         <source> Cookie Policy </source>
+        <target> Çerez Politikası </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">5,7</context>
@@ -565,6 +586,7 @@
       </trans-unit>
       <trans-unit id="135709542974704280" datatype="html">
         <source>In our policy, we use the term &quot;cookies&quot; to refer to cookies and other similar technologies that fall within the scope of the European Union Data Protection Directive. We use different types of cookies for reasons such as increasing the efficiency you get from our website, maximizing the user experience, adapting our website according to your interests, offering you special products and services, and improving our products and services. By using our website you accept the use of cookies and the processing of related data. We would like to point out that the privacy of your personal data Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş. of great importance to We keep our system and internet infrastructure security at the highest level in order to protect your personal information.</source>
+        <target>Politikamızda, Avrupa Birliği Veri Koruma Direktifi kapsamına giren çerezler ve buna benzer diğer teknolojilere atıf yapmak için “çerez” terimini kullanmaktayız. İnternet sitemizden aldığınız verimi artırmak, kullanıcı deneyimini üst düzeye çıkarmak, internet sitemizi ilgi alanlarınıza göre uyarlamak, size özel ürün ve hizmetler sunmak, ürün ve hizmetlerimizi geliştirmek gibi sebeplerle farklı tiplerde çerezler kullanmaktayız. İnternet sitemizi kullanarak çerezlerin kullanımını ve ilgili verilerin işlenmesini kabul edersiniz. Belirtmek isteriz ki kişisel verilerinizin gizliliği Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş.. için büyük önem arz etmektedir. Kişisel bilgilerinizi korumak amacıyla sistem ve internet altyapı güvenliğimizi en üst düzeyde tutmaktayız.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">17</context>
@@ -572,6 +594,7 @@
       </trans-unit>
       <trans-unit id="9016470767749247193" datatype="html">
         <source>What is a cookie?</source>
+        <target> Çerez Nedir? </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">18</context>
@@ -579,6 +602,7 @@
       </trans-unit>
       <trans-unit id="4471781344584744157" datatype="html">
         <source>Cookies, in general terms, the website you enter; is a series of text files stored on your device through your internet browser. For example, some of the cookies used remember your language selection, you don&apos;t have to repeat such choices every time you log in to the site. In addition, the cookies used create a more convenient and faster visit experience for your individual needs.</source>
+        <target>Çerezler, genel anlamı itibariyle girdiğiniz internet sitesinin; internet tarayıcınız aracılığıyla cihazınızda saklanan bir dizi metin dosyalarıdır. Misal vermek gerekirse, kullanılan çerezlerden bazıları dil seçiminizi hatırlar, siteye her giriş yaptığınızda bu gibi seçimleri tekrarlamanız gerekmez. Ayrıca kullanılan çerezler bireysel ihtiyaçlarınıza daha uygun ve hızlı bir ziyaret deneyimi yaratır.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">19</context>
@@ -586,6 +610,7 @@
       </trans-unit>
       <trans-unit id="1959473694260170733" datatype="html">
         <source>Types of Cookies</source>
+        <target>Çerez Türleri</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">25</context>
@@ -593,20 +618,39 @@
       </trans-unit>
       <trans-unit id="615919342901078912" datatype="html">
         <source>Cookies are divided into two as temporary and permanent cookies according to their storage time in your browser. Our website uses temporary and permanent type cookies to distinguish you from other users and to make arrangements according to your interests and preferences. SundusPay Payment Agency A.Ş. In addition to cookies designed by us, cookies can also be used within the scope of services received from third parties. There are two types of cookies, Persistent Cookie and Temporary Cookie, according to their duration.</source>
+        <target>Çerezler tarayıcınızda depolanma süresine göre geçici ve kalıcı çerezler olmak üzere ikiye ayrılır. İnternet sitemiz geçici ve kalıcı tip çerezleri, sizi diğer kullanıcılarımızdan ayırt etmek, ilgi alanlarınıza ve tercihlerinize göre düzenleme yapmak için kullanmaktadır. Sundus Elektronik Para ve Ödeme Kuruluşu A.Ş. tarafından tasarlanmış çerezlerin yanı sıra üçüncü kişilerden alınan hizmetler kapsamında da çerez kullanılabilmektedir. sürelerine göre Kalıcı Çerez ve Geçici Çerez olarak iki çerez tipi bulunmaktadır.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
+        <trans-unit id="2041742068937166796" datatype="html">
+        <source>Temporary Cookies:</source>
+        <target>Geçici Çerezler:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3825330109426577405" datatype="html">
         <source>The term session cookies is also used for temporary cookies. These cookies are created while you visit our website and are deleted after your browser is closed. The main purpose of our use of temporary cookies is to ensure that our website functions properly during your visit. For example; ensuring that multi-page and online forms are properly filled.</source>
+         <target>Geçici çerezler için terimsel olarak oturum çerezleri ibaresi de kullanılmaktadır. Bu çerezler internet sitemizi ziyaret ettiğiniz esnada oluşturulur ve tarayıcınız kapatıldıktan sonra silinir. Geçici çerezleri kullanmamızın temel amacı internet sitemizi ziyaretiniz boyunca düzgün bir şekilde çalışmasını sağlamaktır. Örnek olarak; birden fazla sayfadan oluşan ve çevrimiçi formların düzgün bir biçimde doldurulmasını sağlamak.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4518078873789247232" datatype="html">
+        <source>Persistent Cookies:</source>
+        <target>Kalıcı Çerezler:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6212414663288450333" datatype="html">
         <source>They are created when you visit our website and remain until you delete them or they expire. We use these cookies to provide an individual experience that is compatible with your personal settings.</source>
+        <target>İnternet sitemizi ziyaret ettiğinizde oluşturulur ve siz silinceye veya süreleri doluncaya kadar kalırlar. Bu çerezleri kişisel ayarlarınız ile uyumlu bireysel bir deneyim sunmak amacı ile kullanmaktayız.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">30</context>
@@ -614,41 +658,87 @@
       </trans-unit>
       <trans-unit id="3953704191214330150" datatype="html">
         <source>Cookie Categories</source>
+        <target>Çerez Kategorileri</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8227463582439029315" datatype="html">
+        <source>a) Technical Cookies:</source>
+        <target>a) Teknik Çerezler:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="9044347070518597067" datatype="html">
         <source>Thanks to the use of technical cookies, the functional use of the website is ensured, but pages and areas that do not work on the site are detected.</source>
+        <target>Teknik çerezlerin kullanımı sayesinde internet sitesinin işlevsel olarak kullanılması sağlanmakla birlikte sitede çalışmayan sayfalar ve alanlar tespit edilmektedir.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4556035427269760532" datatype="html">
+        <source>b) Authentication Cookies:</source>
+        <target>b) Otantikasyon Çerezleri:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6396598920062674227" datatype="html">
         <source>: In case the site visitor logs in using a password, the identity of the site user is determined on each page he visits on the site, thus preventing the user from logging in using a password on other pages he visits.</source>
+        <target>Site ziyaretçisinin şifre kullanarak giriş yapması durumda, sitede ziyaret edeceği her bir sayfada site kullanıcısının kimliği belirlenir ve bu sayede kullanıcının ziyaret ettiği diğer sayfalarda şifre kullanarak giriş yapması önlenmiş olur.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7652986815546560447" datatype="html">
+        <source>c) Flash Cookies:</source>
+        <target>c) Flash Çerezleri:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5264276167398126550" datatype="html">
         <source>These are the types of cookies that enable the effective use of image or audio content on the website.</source>
+        <target>İnternet sitesinde yer alan görüntü veya ses içeriklerinin etkin olarak kullanımını sağlayan çerez türleridir.:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3237843583200226031" datatype="html">
+        <source>d) Personalization Cookies:</source>
+        <target>d) Kişiselleştirme Çerezleri:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3502325983263917724" datatype="html">
         <source>These are the types of cookies that are used to remember the preferences made by the user on different pages of the website.</source>
+        <target>Kullanıcının yapmış olduğu tercihleri internet sitesinin farklı sayfalarında hatırlamaya yarayan çerez türleridir.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="704144102990550244" datatype="html">
+        <source>e) Analytical Cookies:</source>
+        <target>e) Analitik Çerezler:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7982432356587995710" datatype="html">
         <source>These are the types of cookies that provide analytical results such as the number of visitors to the website, the detection of the pages viewed, the time interval of the visit to the site.</source>
+        <target>İnternet sitesini ziyaret edenlerin sayıları, görüntülenen sayfaların tespiti, siteyi ziyaretin zaman aralığı gibi analitik sonuçların oluşmasını sağlayan çerez türleridir.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">41</context>
@@ -656,6 +746,7 @@
       </trans-unit>
       <trans-unit id="6102556361136756815" datatype="html">
         <source>Cookie Management</source>
+        <target>Çerez Yönetimi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">42</context>
@@ -663,6 +754,7 @@
       </trans-unit>
       <trans-unit id="5843823375042900167" datatype="html">
         <source>Mostly all internet browsers are programmed to accept cookies automatically. You can block the use of cookies and delete stored cookies, according to your preference. In general, internet browsers allow you to do the following:/p&gt; </source>
+        <target>Çoğunlukla tüm internet tarayıcıları çerezleri otomatik olarak kabul etmek üzere programlanmıştır. Tercihiniz doğrultusunda, çerezlerin kullanımını engelleyebilir ve depolanan çerezleri silebilirsiniz. Genel olarak internet tarayıcıları aşağıda belirtilen işlemleri yapmanıza izin verir:/p&gt; </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">43,44</context>
@@ -670,6 +762,7 @@
       </trans-unit>
       <trans-unit id="5495642126825306996" datatype="html">
         <source>As a data controller, your personal data is kept by our institution for the following purposes in accordance with the purpose of conducting electronic money and payment services.</source>
+        <target>Veri sorumlusu olarak kurumumuz tarafından kişisel verileriniz elektronik para ve ödeme hizmetlerinin yürütülmesi amacına uygun olarak aşağıda belirtilecek amaçlarla tutulmaktadır</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">44</context>
@@ -677,6 +770,7 @@
       </trans-unit>
       <trans-unit id="8612000161552093793" datatype="html">
         <source>Viewing and deleting cookies saved in your browser</source>
+        <target>Tarayıcınıza kaydedilmiş çerezleri görüntüleme ve istediğinizde silme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">46</context>
@@ -684,6 +778,7 @@
       </trans-unit>
       <trans-unit id="1671756780034596220" datatype="html">
         <source>Blocking third-party cookies</source>
+        <target>Üçüncü taraf çerezlerini engelleme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">47</context>
@@ -695,6 +790,7 @@
       </trans-unit>
       <trans-unit id="7199975713098663834" datatype="html">
         <source>Deleting cookies stored in your browser from certain sites</source>
+        <target>Belli sitelerden tarayıcınızda saklanacak çerezleri silme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">49</context>
@@ -702,6 +798,7 @@
       </trans-unit>
       <trans-unit id="6480112950377569239" datatype="html">
         <source>Block all cookies that may be stored in your browser</source>
+        <target>Tarayıcınızda saklanabilecek tüm çerezleri engelleme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">50</context>
@@ -709,6 +806,7 @@
       </trans-unit>
       <trans-unit id="3289456239562855305" datatype="html">
         <source>Deleting cookies saved when the browser is closed</source>
+        <target>Tarayıcı kapatıldığında kaydedilen çerezleri silme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">51</context>
@@ -716,6 +814,7 @@
       </trans-unit>
       <trans-unit id="3068869841766501955" datatype="html">
         <source>If you prevent the storage of cookies and/or delete the stored cookies, some functions of our website may not work actively. For your information, we wish you pleasant use.</source>
+        <target>Çerezlerin depolamasını engellediğiniz ve/veya depolanan çerezleri sildiğiniz takdirde, internet sitemizin bazı fonksiyonları aktif çalışmayabilir. Bilginize sunar, keyifli kullanımlar dileriz.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">53</context>
@@ -723,21 +822,18 @@
       </trans-unit>
       <trans-unit id="100255767024910031" datatype="html">
         <source> Fast and Reliable<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Money Transfer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> SundusPay </source>
+        <target> Hızlı ve Güvenilir<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Para Transferi<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> SundusPay </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">5,10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7198755813837628878" datatype="html">
-        <source> Secure, Economical, By offering fast money transfer we make your life easier. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">11,16</context>
-        </context-group>
-      </trans-unit>
+
       <trans-unit id="4708271710573279280" datatype="html">
         <source> Learn More <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
             class=&quot; ms-5  fa fa-arrow-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target> Daha fazla oku <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+            class=&quot; ms-5  fa fa-arrow-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">17,18</context>
@@ -756,6 +852,7 @@
       </trans-unit>
       <trans-unit id="8004961217473072995" datatype="html">
         <source> Low Fees Safe Payment High Speed </source>
+        <target> Düşük Ücretler Güvenli Ödeme Yüksek Hız </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">34,36</context>
@@ -763,6 +860,7 @@
       </trans-unit>
       <trans-unit id="324305240146345290" datatype="html">
         <source> SundusPay It performs very fast and reliable money transfer transactions without opening an account. </source>
+        <target> SundusPay hesap açtırmadan çok hızlı ve güvenilir para transfer işlemlerinizi gerçekleştirir. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">37,41</context>
@@ -770,6 +868,7 @@
       </trans-unit>
       <trans-unit id="8878700331247603166" datatype="html">
         <source>Security</source>
+        <target>Güvenlik</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">46</context>
@@ -777,13 +876,33 @@
       </trans-unit>
       <trans-unit id="4715726755984405403" datatype="html">
         <source>With our technology-leading systems, we perform your money transfers in safe.</source>
+        <target>Teknoloji lideri sistemlerimiz ile para transferlerinizi güvenle gerçekleştiriyoruz.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
+
+      <trans-unit id="8169477421709169188" datatype="html">
+        <source>Fast transfer</source>
+        <target>Hızlı Transfer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2712810934843904980" datatype="html">
+        <source>We process your transfer in minutes.</source>
+        <target>Dakikalar içerisinde transfer işlemlerinizi gerçekleştiriyoruz.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+
       <trans-unit id="4352110375180640821" datatype="html">
         <source>Client satisfaction</source>
+        <target>Müşteri Memnuniyeti</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">56</context>
@@ -791,6 +910,8 @@
       </trans-unit>
       <trans-unit id="316424331076857533" datatype="html">
         <source>We care about our customers very much. With our innovative and technological infrastructure, we make life easier for our customers and offer quick solutions to their problems.</source>
+        <target>Siz müşterilerimizi çok önemsiyoruz. Yenilikçi ve teknolojik alt yapımızla müşterilerimizin
+            hayatını kolaylaştırıyor, problemlerine hızlı çözümler sunuyoruz.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">57,58</context>
@@ -798,6 +919,7 @@
       </trans-unit>
       <trans-unit id="6434415503179752729" datatype="html">
         <source> Why Send Money with<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>SundusPay </source>
+        <target> Para Transferinde Neden<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>SundusPay </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">73,75</context>
@@ -805,6 +927,7 @@
       </trans-unit>
       <trans-unit id="5556507130630693382" datatype="html">
         <source> Our Mission; To provide innovative, practical, reliable smart payment technologies and services to make your life easier. </source>
+        <target>Misyonumuz; Sizlerin yaşamını kolaylaştırmak için yenilikçi, pratik, güvenilir akıllı ödeme teknolojileri ve hizmetleri sunmaktır.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">76,79</context>
@@ -826,6 +949,7 @@
       </trans-unit>
       <trans-unit id="1507469400777111059" datatype="html">
         <source><x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u&gt;"/>Legal Warnings<x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;"/></source>
+         <target><x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u&gt;"/>Yasal Koşullar<x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -842,11 +966,138 @@
       <trans-unit id="3078217536084292709" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
               class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Cookie Policy</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Çerez Politikası</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
           <context context-type="linenumber">30,31</context>
         </context-group>
       </trans-unit>
+
+      <trans-unit id="5905023581585871333" datatype="html">
+        <source> •   SundusPay is supervised by the Central Bank of The Republic of Turkey. It implements an up-to-date data protection policy as part of the Financial Crimes Investigation Board (MASAK) legislation and the Prevention of Money Laundering and The Fight Against The Financing of Terrorism. </source>
+        <target> •   SundusPay, Türkiye Cumruhiyet Merkez Bankası tarafından denetlenmektedir. Mali Suçları Araştırma Kurulu (MASAK) mevzuatı ve Kara Para Aklamanın Önlenmesi ve Terörizmin Finanse Edilmesiyle Mücadele kapsamında, güncel bir veri koruma politikası uygulamaktadır. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">17,21</context>
+        </context-group>
+      </trans-unit>
+
+       <trans-unit id="7579078720286747188" datatype="html">
+        <source> For Safety </source>
+        <target> Güvenliğiniz İçin </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3696947184792946294" datatype="html">
+        <source> • The necessary identification, verification and address confirmation of the customer should be presented by the customer in full and accurately prior to the transactions. </source>
+        <target> • Müşteri kimlik tespiti, doğrulanması ve adres teyidine yönelik gerekli tanıtıcı bilgiler işlemlerden önce eksiksiz ve doğru olarak müşteri tarafından ibraz edilmelidir. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3853465588403382691" datatype="html">
+        <source> • SundusPay ensures the protection of customers&apos; personal data and secure transactions by using the most advanced technological systems. </source>
+        <target> • SundusPay en gelişmiş teknolojik sistemleri kullanarak müşterilerin kişisel verilerinin korunmasını ve güvenli işlem yapılmasını sağlamaktadır. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1650298227359672132" datatype="html">
+        <source> • SundusPay never requests your personal information via E-Mail. Do not open E-Mail, SMS or links from people you do not know, and never share your personal information. SundusPay Authority does not request such information through these channels. </source>
+        <target> • SundusPay  E-Mail ile kesinlikle kişisel bilgilerinizi istemez. Tanımadığınız kişilerden gelen E-Mail, SMS ya da linkleri açmayın ve kesinlikle kişisel bilgilerinizi paylaşmayın. SundusPay  bu tür bilgileri bu mecralar üzerinden talep etmemektedir. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3210231057521511398" datatype="html">
+        <source> • Do not discredit any e-mail address that appears to have been sent by the SundusPay but does not have an extension sunduspay.com. </source>
+        <target> • SundusPay tarafından gönderilmiş gibi görünen ancak sunduspay.com uzantılı olmayan hiçbir mail adresine itibar etmeyiniz.   </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6444465668585594921" datatype="html">
+        <source> • Do not share reference number, amount and recipient information for the transfer process with third person. </source>
+        <target> • Yapılan transfer işlemine ilişkin referans numarası, tutar ve alıcı bilgilerini üçüncü kişilerle paylaşmayınız.   </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">30,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2066344656073204281" datatype="html">
+        <source> • The correctness and timeliness of the contact information used in the transfer transactions are the responsibility of the receiver and sender. </source>
+        <target> • Yapılan transfer işlemlerinde kullanılan iletişim bilgilerinin doğruluğu ve güncelliği alıcı ve gönderici sorumluluğundadır.   </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5015606922684249745" datatype="html">
+        <source> • In the event that your personal information is requested, you will be informed by the SundusPay and call our phone line 0 212 631 42 43 without sharing any information in the event of requesting your personal information as &quot;action has been made on your behalf and necessary corrections will be made outside your knowledge&quot;. </source>
+        <target> • SundusPay tarafından aradığını belirterek "adınıza işlem yapıldı, bilginiz dışında ise gerekli düzeltmeler yapılacaktır" şeklinde kişisel bilgilerinizin talep edilmesi durumunda herhangi bir bilgi paylaşmadan görüşmenizi sonlandırıp 0 212 631 42 43 numaralı telefon hattımızı arayarak bilgi verin. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">40,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4314767209318848105" datatype="html">
+        <source> • We wish you a safe day </source>
+        <target> • Güvenli günler dileriz. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">46,49</context>
+        </context-group>
+      </trans-unit>
+
+       <trans-unit id="8180448773362407008" datatype="html">
+        <source> • Persons who do not intentionally report suspicious or unusual transactions or provide false or misleading information contrary to applicable legislation and rules are stipulated in Law No. 5549, where they will be punished with a prison sentence unless they require a more severe punishment under another regulatory provision. </source>
+        <target> • Şüpheli veya olağandışı işlemleri kasten bildirmeyen veya ilgili mevzuat ve kurallara aykırı olarak yanlış veya yanıltıcı bilgi veren kişiler, diğer bir mevzuat hükmü uyarınca daha ağır bir cezayı gerektirmedikçe, hapis cezası ile cezalandırılacağı 5549 No’lu Kanun’da öngörülmektedir. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">22,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4439782080610219011" datatype="html">
+        <source> • All transaction processes are carried out within the framework of Risk Management and Compliance procedures in relevant laws, regulations and regulations. </source>
+        <target> • Tüm işlem süreçleri ilgili kanun, mevzuat ve yönetmeliklerdeki Risk Yönetimi ve Uyum prosedürleri çerçevesinde gerçekleştirilmektedir. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8919678361162688440" datatype="html">
+        <source> • SundusPay employees and consultants have no responsibility for direct or indirect damages that may arise due to the content, opinions and information on the website. </source>
+        <target> • SundusPay çalışanlarının ve danışmanlarının, web sitesinde yer alan içerik, görüş ve bilgiler dolayısıyla ortaya çıkabilecek, doğrudan veya dolaylı zararlarla ilgili herhangi bir sorumluluğu bulunmamaktadır.   </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">31,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6033368451951115540" datatype="html">
+        <source> • The reader has received SundusPay accessing the website or using any of the information on the website means that it accepts the above mentioned conditions, and SundusPay reserves the right to change and update both the terms and conditions contained in this legal notice and any content, opinions and information on the website without any prior notice. </source>
+        <target> • Okuyucunun, SundusPay web sitesine girmesi veya web sitesinde yer alan herhangi bir bilgiyi kullanması, yukarıda belirtilen koşulları kabul ettiği anlamına gelmekte olup, SundusPay gerek bu yasal uyarıda yer alan koşulları ve hükümleri, gerekse de web sitesinde yer alan her türlü içerik, görüş ve bilgiyi önceden bir ihbara gerek kalmaksızın değiştirme ve güncelleme hakkına sahiptir.   </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">35,40</context>
+        </context-group>
+      </trans-unit>
+
+       <trans-unit id="7309234497345358388" datatype="html">
+        <source> Secure, Economical, By offering fast money transfer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> we make your life easier. </source>
+        <target> Güvenli, Ekonomik, Hızlı Para transfer imkanı sunarak<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> hayatınızı kolaylaştırıyoruz. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">11,16</context>
+        </context-group>
+      </trans-unit>
+
       <trans-unit id="5004653023839719257" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
               class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>TÖDEB Hakem Heyeti</source>
@@ -858,6 +1109,8 @@
       <trans-unit id="7010356608481815394" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
               class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Legal Warnings</source>
+         <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Yasal Koşullar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
           <context context-type="linenumber">38,39</context>
@@ -873,7 +1126,8 @@
       <trans-unit id="3793951773946028790" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
               class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Money Transfer <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target></target>
+        <target> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i
+              class=&quot;fa fa-angle-right pe-3&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Para Transferi  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/footer/footer.component.html</context>
           <context context-type="linenumber">49,50</context>
@@ -1013,6 +1267,23 @@
       <trans-unit id="8568785709889583803" datatype="html">
         <source>Legal Warnings <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <target>Yasal Uyarılar <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+        <trans-unit id="4748314040662390573" datatype="html">
+        <source> Legal Warnings </source>
+        <target> Yasal Uyarılar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8568785709889583803" datatype="html">
+        <source>Legal Warnings <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+       
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
           <context context-type="linenumber">45</context>

@@ -12,14 +12,28 @@ import { Router } from '@angular/router';
 export class AppComponent implements OnInit{
   title = 'ng-SundusPay';
 
+  loading = false;
+
   /**
    *
    */
   constructor(private router:Router, private titleService: Title) {
-    this.titleService.setTitle($localize`${this.title}`);
+    this.setAppTitle(this.title);
+  }
+
+  public setAppTitle(title:string){
+    this.titleService.setTitle($localize`${title}`);
   }
 
   ngOnInit(): void {
-    
+
+  }
+
+  public showLoadingBar(){
+    this.loading=true;
+
+    setTimeout(() => {
+      this.loading=false;
+    }, 400);
   }
 }

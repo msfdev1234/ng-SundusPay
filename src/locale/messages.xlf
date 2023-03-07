@@ -453,6 +453,13 @@
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="791988267498679324" datatype="html">
+        <source>Fax</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contactus/contactus.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="9063698480688555645" datatype="html">
         <source>Email us</source>
         <context-group purpose="location">
@@ -586,11 +593,25 @@
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="2041742068937166796" datatype="html">
+        <source>Temporary Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3825330109426577405" datatype="html">
         <source>The term session cookies is also used for temporary cookies. These cookies are created while you visit our website and are deleted after your browser is closed. The main purpose of our use of temporary cookies is to ensure that our website functions properly during your visit. For example; ensuring that multi-page and online forms are properly filled.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4518078873789247232" datatype="html">
+        <source>Persistent Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6212414663288450333" datatype="html">
@@ -607,11 +628,25 @@
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8227463582439029315" datatype="html">
+        <source>a) Technical Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="9044347070518597067" datatype="html">
         <source>Thanks to the use of technical cookies, the functional use of the website is ensured, but pages and areas that do not work on the site are detected.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4556035427269760532" datatype="html">
+        <source>b) Authentication Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6396598920062674227" datatype="html">
@@ -621,6 +656,13 @@
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7652986815546560447" datatype="html">
+        <source>c) Flash Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5264276167398126550" datatype="html">
         <source>These are the types of cookies that enable the effective use of image or audio content on the website.</source>
         <context-group purpose="location">
@@ -628,11 +670,25 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3237843583200226031" datatype="html">
+        <source>d) Personalization Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3502325983263917724" datatype="html">
         <source>These are the types of cookies that are used to remember the preferences made by the user on different pages of the website.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
           <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="704144102990550244" datatype="html">
+        <source>e) Analytical Cookies:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cookie-policy/cookie-policy.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7982432356587995710" datatype="html">
@@ -716,8 +772,8 @@
           <context context-type="linenumber">5,10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7198755813837628878" datatype="html">
-        <source> Secure, Economical, By offering fast money transfer we make your life easier. </source>
+      <trans-unit id="7309234497345358388" datatype="html">
+        <source> Secure, Economical, By offering fast money transfer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> we make your life easier. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
           <context context-type="linenumber">11,16</context>
@@ -732,7 +788,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">80,81</context>
+          <context context-type="linenumber">79,80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5743665218477875962" datatype="html">
@@ -753,49 +809,168 @@
         <source> SundusPay It performs very fast and reliable money transfer transactions without opening an account. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">37,41</context>
+          <context context-type="linenumber">37,40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8878700331247603166" datatype="html">
         <source>Security</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4715726755984405403" datatype="html">
         <source>With our technology-leading systems, we perform your money transfers in safe.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8169477421709169188" datatype="html">
+        <source>Fast transfer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2712810934843904980" datatype="html">
+        <source>We process your transfer in minutes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/index/index.component.html</context>
+          <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4352110375180640821" datatype="html">
         <source>Client satisfaction</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="316424331076857533" datatype="html">
         <source>We care about our customers very much. With our innovative and technological infrastructure, we make life easier for our customers and offer quick solutions to their problems.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">57,58</context>
+          <context context-type="linenumber">56,57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6434415503179752729" datatype="html">
         <source> Why Send Money with<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>SundusPay </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">73,75</context>
+          <context context-type="linenumber">72,74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5556507130630693382" datatype="html">
         <source> Our Mission; To provide innovative, practical, reliable smart payment technologies and services to make your life easier. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/index/index.component.html</context>
-          <context context-type="linenumber">76,79</context>
+          <context context-type="linenumber">75,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4748314040662390573" datatype="html">
+        <source> Legal Warnings </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5905023581585871333" datatype="html">
+        <source> •   SundusPay is supervised by the Central Bank of The Republic of Turkey. It implements an up-to-date data protection policy as part of the Financial Crimes Investigation Board (MASAK) legislation and the Prevention of Money Laundering and The Fight Against The Financing of Terrorism. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">17,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8180448773362407008" datatype="html">
+        <source> • Persons who do not intentionally report suspicious or unusual transactions or provide false or misleading information contrary to applicable legislation and rules are stipulated in Law No. 5549, where they will be punished with a prison sentence unless they require a more severe punishment under another regulatory provision. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">22,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4439782080610219011" datatype="html">
+        <source> • All transaction processes are carried out within the framework of Risk Management and Compliance procedures in relevant laws, regulations and regulations. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8919678361162688440" datatype="html">
+        <source> • SundusPay employees and consultants have no responsibility for direct or indirect damages that may arise due to the content, opinions and information on the website. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">31,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6033368451951115540" datatype="html">
+        <source> • The reader has received SundusPay accessing the website or using any of the information on the website means that it accepts the above mentioned conditions, and SundusPay reserves the right to change and update both the terms and conditions contained in this legal notice and any content, opinions and information on the website without any prior notice. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/legalwarnings/legalwarnings.component.html</context>
+          <context context-type="linenumber">35,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7579078720286747188" datatype="html">
+        <source> For Safety </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3696947184792946294" datatype="html">
+        <source> • The necessary identification, verification and address confirmation of the customer should be presented by the customer in full and accurately prior to the transactions. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3853465588403382691" datatype="html">
+        <source> • SundusPay ensures the protection of customers&apos; personal data and secure transactions by using the most advanced technological systems. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1650298227359672132" datatype="html">
+        <source> • SundusPay never requests your personal information via E-Mail. Do not open E-Mail, SMS or links from people you do not know, and never share your personal information. SundusPay Authority does not request such information through these channels. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3210231057521511398" datatype="html">
+        <source> • Do not discredit any e-mail address that appears to have been sent by the SundusPay but does not have an extension sunduspay.com. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6444465668585594921" datatype="html">
+        <source> • Do not share reference number, amount and recipient information for the transfer process with third person. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">30,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2066344656073204281" datatype="html">
+        <source> • The correctness and timeliness of the contact information used in the transfer transactions are the responsibility of the receiver and sender. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">35,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5015606922684249745" datatype="html">
+        <source> • In the event that your personal information is requested, you will be informed by the SundusPay and call our phone line 0 212 631 42 43 without sharing any information in the event of requesting your personal information as &quot;action has been made on your behalf and necessary corrections will be made outside your knowledge&quot;. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">40,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4314767209318848105" datatype="html">
+        <source> • We wish you a safe day </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/safetyfor/safetyfor.component.html</context>
+          <context context-type="linenumber">46,49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7707916698743238068" datatype="html">
@@ -996,11 +1171,10 @@
         </context-group>
       </trans-unit>
       <trans-unit id="9186262258032716849" datatype="html">
-        <source>Contact Us <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
-                        class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <source>Contact Us <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/header/header.component.html</context>
-          <context context-type="linenumber">52,53</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
     </body>

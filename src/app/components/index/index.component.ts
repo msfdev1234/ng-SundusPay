@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-index',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class IndexComponent {
 
+  constructor(private appComponent:AppComponent) {
+
+  }
+
+
+  ngOnInit(): void {
+    this.appComponent.setAppTitle("Sunduspay : Money Transfer");
+    this.appComponent.showLoadingBar();
+  }
 }
