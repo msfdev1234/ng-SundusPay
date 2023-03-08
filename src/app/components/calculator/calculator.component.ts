@@ -9,11 +9,9 @@ import { AppComponent } from 'src/app/app.component';
 })
 export class CalculatorComponent implements OnInit {
 
-
   calciForm!: FormGroup;
   isSelectedValue1! : boolean;
   isSelectedValue2! : boolean;
-
   currentSelect! : number;
 
   constructor(private appComponent: AppComponent) {
@@ -31,7 +29,6 @@ export class CalculatorComponent implements OnInit {
 
     this.appComponent.setAppTitle("Calculator");
     this.appComponent.showLoadingBar();
-
 
   }
 
